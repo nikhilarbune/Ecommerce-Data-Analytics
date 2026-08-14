@@ -1,0 +1,59 @@
+-- Total Revenue
+Total Revenue =
+SUM(olist_master_orders_powerbi[product_revenue_clean])
+
+
+-- Total Orders
+Total Orders =
+DISTINCTCOUNT(olist_master_orders_powerbi[order_id])
+
+
+-- Average Order Value
+Average Order Value =
+DIVIDE(
+    [Total Revenue],
+    [Total Orders]
+)
+
+
+-- Delivered Orders
+Delivered Orders =
+CALCULATE(
+    [Total Orders],
+    olist_master_orders_powerbi[order_status] = "delivered"
+)
+
+
+-- On-Time Delivery %
+On-Time Delivery % =
+DIVIDE(
+    CALCULATE(
+        [Total Orders],
+        olist_master_orders_powerbi[delivery_status] = "On Time"
+    ),
+    CALCULATE(
+        [Total Orders],
+        olist_master_orders_powerbi[delivery_status] <> "Not Delivered"
+    )
+)
+
+
+-- Average Review Score
+Average Review Score =
+AVERAGE(
+    olist_master_orders_powerbi[review_score]
+)
+
+
+-- Total Freight
+Total Freight =
+SUM(
+    olist_master_orders_powerbi[freight_value_clean]
+)
+
+
+-- Total Order Value
+Total Order Value =
+SUM(
+    olist_master_orders_powerbi[total_order_value_clean]
+)

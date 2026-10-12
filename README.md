@@ -1,4 +1,4 @@
-﻿# Olist E-Commerce Sales & Customer Analytics Dashboard
+# Olist E-Commerce Sales & Customer Analytics Dashboard
 
 ## 📊 Project Overview
 
@@ -149,10 +149,15 @@ SUM(olist_master_orders_powerbi[product_revenue_clean])
 
 ### Executive Overview
 
-![Executive Overview]
-"C:\Users\NIKHIL\Desktop\Ecommerce_Data_Analytics\Dashboard\Executive_Overview.png"
+![Executive Overview](./Dashboard/Executive_Overview.png)
 
 ### Customer & Delivery Analysis
 
-![Customer & Delivery Analysis]
-"C:\Users\NIKHIL\Desktop\Ecommerce_Data_Analytics\Dashboard\Customer_Delivery_Analysis.png"
+![Customer & Delivery Analysis](./Dashboard/Customer_Delivery_Analysis.png)
+
+### Product & Sales Analysis
+
+![Product & Sales Analysis](./Dashboard/Product_Sales_Analysis.png.png)
+
+
+

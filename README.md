@@ -136,13 +136,23 @@ Main data preparation activities included:
 
 ---
 
+## 📊 Key DAX Measures
+
+Examples of measures used in the dashboard:
+
+```DAX
+Total Revenue =
+SUM(olist_master_orders_powerbi[product_revenue_clean])
+
 
 ## 📸 Dashboard Preview
 
 ### Executive Overview
 
-![Executive Overview](Dashboard/Executive_Overview.png)
+![Executive Overview]
+"C:\Users\NIKHIL\Desktop\Ecommerce_Data_Analytics\Dashboard\Executive_Overview.png"
 
 ### Customer & Delivery Analysis
 
-![Customer & Delivery Analysis](Dashboard/Customer_Delivery_Analysis.png)
+![Customer & Delivery Analysis]
+"C:\Users\NIKHIL\Desktop\Ecommerce_Data_Analytics\Dashboard\Customer_Delivery_Analysis.png"

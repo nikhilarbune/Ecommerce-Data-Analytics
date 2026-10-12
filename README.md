@@ -141,9 +141,13 @@ Main data preparation activities included:
 Examples of measures used in the dashboard:
 
 ```DAX
+**Total Revenue**
+
 Total Revenue =
 SUM(olist_master_orders_powerbi[product_revenue_clean])
+```
 
+---
 
 ## 📸 Dashboard Preview
 
@@ -158,6 +162,5 @@ SUM(olist_master_orders_powerbi[product_revenue_clean])
 ### 3. Product & Sales Analysis
 
 ![Product & Sales Analysis](./Dashboard/Product%20%26%20Sales%20Analysis.png)
-
 
 

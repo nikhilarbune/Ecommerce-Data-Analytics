@@ -147,17 +147,17 @@ SUM(olist_master_orders_powerbi[product_revenue_clean])
 
 ## 📸 Dashboard Preview
 
-### Executive Overview
+### 1. Executive Overview
 
 ![Executive Overview](./Dashboard/Executive_Overview.png)
 
-### Customer & Delivery Analysis
+### 2. Customer & Delivery Analysis
 
 ![Customer & Delivery Analysis](./Dashboard/Customer_Delivery_Analysis.png)
 
-### Product & Sales Analysis
+### 3. Product & Sales Analysis
 
-![Product & Sales Analysis](./Dashboard/Product_Sales_Analysis.png.png)
+![Product & Sales Analysis](./Dashboard/Product%20%26%20Sales%20Analysis.png)
 
 
 
